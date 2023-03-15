@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(107.56deg, #00DDFB 0%, #00709F 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body,
+button,
+input {
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: .6px;
+    padding: 4.8px 6.4px 6.4px;
+
+    width: min(43rem, 90%);
+    /*quando ele passa a ser menor que os 43rem ele adota o valor de 90% da tela*/
+    height: 27.4rem;
+    text-align: center;
+}
+
+/* screen 1 */
+.hide {
+    display: none;
+}
+
+.alertError{
+    color: rgb(231, 54, 54);
+    padding: .8rem;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 2.9rem;
+    color: #34355B;
+    text-align: center;
+    margin: 4.8rem auto 1.6rem;
+}
+
+p {
+    font-family: 'DM Sans';
+    color: rgba(52, 53, 91, 0.8);
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+form {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+
+input,
+button {
+    border: none;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.6rem;
+    line-height: 2.1rem;
+}
+
+input {
+    color: #34355B;
+    background: #DCE2E9;
+    border-radius: 4px 0px 0px 4px;
+    width: 8rem;
+}
+
+button {
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #7879f1;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover{
+    background: #4b4be6;
+}
+
+/* screen 2 */
+
+h2 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #34355B;
+    margin: 4.8rem auto 3.3rem;
+}
+
+.screen2 button{
+    border-radius: 4px;
+}

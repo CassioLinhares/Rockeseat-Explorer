@@ -1,0 +1,35 @@
+const alunos = [
+    {name: 'cassio', age: 23, note1: 5, note2: 7},
+    {name: 'Thailliny', age: 23, note1: 10, note2: 9.5},
+    {name: 'Eduarda', age: 22, note1: 8, note2: 7.2},
+    {name: 'Alessandra', age: 26, note1: 9, note2: 8.4},
+    {name: 'Valmor', age: 57, note1: 6, note2: 7.5},
+    {name: 'Marcia', age: 55, note1: 7, note2: 8.6}
+]
+
+function calculateAverage(note1, note2) {
+    let media = (note1 + note2) / 2
+    return media
+}
+
+// function checks(media) {
+//     if (media >= 7) {
+//         return `Parabéns! Vc foi aprovado(a) no concurso!`
+//     } else{
+//         return `Vc foi reprovado no concurso!  Pois a nota de corte é 7`
+//     }
+// }
+checks = media => media >= 7 ? 
+'Parabéns! Vc foi aprovado(a) no concurso!' : 
+'Vc foi reprovado no concurso!  Pois a nota de corte é 7'
+
+function printScreen(aluno) {
+    return `
+    O estudante ${aluno.name} tem ${aluno.age} anos e sua média é: ${calculateAverage(aluno.note1, aluno.note2)}\n
+    ${checks(calculateAverage(aluno.note1, aluno.note2))}
+    `
+}
+
+for (const obj of alunos) {
+    alert(printScreen(obj))
+}

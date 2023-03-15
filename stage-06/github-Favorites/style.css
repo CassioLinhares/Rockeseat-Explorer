@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --ff-body: 'Poppins', sans-serif;
+
+    --hue: 194;
+    --fc-primary: hsl(var(--hue), 100%, 63%);
+    --fc-secundary: #303030;
+    --fc-btn-remove: rgb(241, 40, 40);
+    --fc-td-impar: #ddd;
+    --fc-td-par: #eee;
+    
+    --bg-body: #bae0dcc4;
+}
+
+body{
+    font-size: 1.6rem;
+    color: var(--fc-secundary);
+    background-color: var(--bg-body);
+}
+
+/* (*) = seleciona todos os elementos dentro do body */
+body * {
+    font-family: var(--ff-body);
+}
+
+.app{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 3.2rem;
+    width: 16rem;
+    border: 1px solid #ccc;
+    border-radius: .4rem 0 0 .4rem;
+    padding: 0 .8rem;
+}
+
+.search button{
+    background-color: var(--fc-primary);
+    border-radius: 0 .4rem .4rem 0;
+    height: 3.2rem;
+    border: none;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.search button:hover{
+    filter: brightness(1.1);
+}
+
+/*ocultamento do label p/ o usuário, 
+porém não p/ o leitor de tela = acessibilidade*/
+.sr_only{ 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden; /*elimina o transbordar da caixa*/
+    clip: rect(0,0,0,0); /*cria uma caixa que não vai existir*/
+    white-space: nowrap; /*elimina quebra de linha*/
+    border-width: 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+
+table *{
+    font-size: 1.4rem;
+    color: var(--fc-secundary);
+}
+
+table td{
+    padding: 1.5rem;
+    text-align: left;
+}
+
+table th{
+    background-color: var(--fc-primary);
+    font-weight: 400;
+    padding: 1rem;
+    text-align: left;
+}
+
+table th:first-child{
+    border-top-left-radius: 1rem;
+}
+
+table th:last-child{
+    border-top-right-radius: 1rem;
+}
+
+table tr:nth-child(even){
+    background-color: var(--fc-td-par);
+}
+
+table tr:nth-child(odd){
+    background-color: var(--fc-td-impar);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user a{
+    text-decoration: none;
+}
+
+.user p{
+    font-weight: bold;
+}
+
+.repositorios,
+.followers{
+    text-align: center;
+}
+
+.btn-remove{
+    color: var(--fc-btn-remove);
+    cursor: pointer;
+}

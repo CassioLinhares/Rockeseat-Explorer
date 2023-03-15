@@ -1,0 +1,60 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+#esquerda{
+  width: 600px;
+  margin: 40px 0px;
+  /*background-color: rgb(78, 75, 75);*/
+}
+
+#line{
+  height: 0;
+  margin: 0px 10px;
+  border: 1px solid #b1b2b3;
+}
+
+#balls{
+  position: fixed;
+  right: 100px;
+  top: 40px;
+}
+
+#homem{
+  margin: 0px 100px 15px 0;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span, a {
+  color: #ff9900;
+}
+
+p, footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+footer{
+ margin-right: 100px;
+  
+
+}
+
+footer a + a {
+  margin-left: 28px;
+}
