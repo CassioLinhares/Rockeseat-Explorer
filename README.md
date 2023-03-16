@@ -22,12 +22,18 @@
         O que é dev Front-end e Back-end;
         Diferença entre Front-end e Back-end
 
+[Acesse o Stage-01](https://github.com/CassioLinhares/Rockeseat-Explorer/tree/main/stage-01/01%20-%20como%20funciona%20a%20web)
 
 ## Stage 02:
 -  Primeiros passos em HTML e CSS.
 
+[Acesse o Stage-02](https://github.com/CassioLinhares/Rockeseat-Explorer/tree/main/stage-02)
+
 ## Stage 03:
 -  Desenvolvendo meus primeiros formulários e aprendendo a usar o css grid.
+
+[Acesse o Stage-03](https://github.com/CassioLinhares/Rockeseat-Explorer/tree/main/stage-03)
+
 
 ## Stage 04: 
 -  Aprendendo a usar Prompt de comando e conhecendo conceitos novos de JS, como:
@@ -35,6 +41,9 @@
         - Functions
         - Arrays
         - For classic | for In | for Off | .foreach
+
+[Acesse o Stage-04](https://github.com/CassioLinhares/Rockeseat-Explorer/tree/main/stage-04)
+
 
 ## Stage 05:
 -  Avançando estudos em JS:
@@ -47,11 +56,18 @@
         - setTimeOut() | setInterval() 
         - Import/Export
 
+[Acesse o Stage-05](https://github.com/CassioLinhares/Rockeseat-Explorer/tree/main/stage-05)
+
 ## Stage 06:
 -  Aprendendo sobre SPA(single page application) e APIS(Application Programming Interface). 
 
+[Acesse o Stage-06](https://github.com/CassioLinhares/Rockeseat-Explorer/tree/main/stage-06)
+
 ## Stage 07:
 - Manipulando Git e Github
+
+[Acesse o Stage-07](https://github.com/CassioLinhares/Rockeseat-Explorer/tree/main/stage-07/git_github)
+
 ---
 
 # 📕 Sobre
