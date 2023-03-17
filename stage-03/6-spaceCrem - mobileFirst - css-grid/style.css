@@ -109,7 +109,7 @@ section{
   border-radius: 2rem;
   width: 100%;
   height: auto;
-  /* IMG SE ADEQUAR DENTRO DA DIV | H2 NÃO BUGAR AUMENTANDO A RESOLUÇÃO DE TELA */
+  /* IMG FIT WITHIN THE DIV | H2 no bugs when increasing screen resolution */
   transition: all 200ms;
 }
 
